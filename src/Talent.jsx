@@ -11,26 +11,26 @@ const Talent = () => {
           <img src={Logo} alt="" className="w-[330px] h-[230px]" />
         </div>
 
-        <div className="ml-[60rem] mt-[-12rem]">
+        <div className="ml-[65rem] mt-[-12rem]">
           <img src={Graduation} alt="" className="w-52 h-60" />
         </div>
       </div>
 
-      <div className=" flex flex-col justify-center items-center mt-8 ">
+      <div className=" flex flex-col justify-center items-center  ">
         <textarea
           rows="1"
           className="font-aliyana w-[1400px] border-0 capitalize p-24 focus:ring-0 text-center  font-normal tracking-wide leading-3 text-[130px]"
           defaultValue="Emil Ashrafli"
         ></textarea>
 
-        <div className="mt-6">
-          <textarea
+        <div className="mt-6 ml-[-50px]">
+          <input
             rows="1"
-            className=" w-[800px] border-0    focus:ring-0 text-center font-tinos uppercase text-2xl text-transparent bg-gradient-to-r 
-            from-[#fecf6b] to-[#af7525]  
-            bg-clip-text tracking-wider"
+            className=" w-[800px] border-0  focus:ring-0 text-center font-tinos uppercase text-2xl  text-transparent bg-gradient-to-r 
+            from-[#fecf6b] to-[#af7525] bg-clip-text tracking-wider
+            "
             defaultValue="Official Transcript & Talent Report Enclosed"
-          ></textarea>
+          ></input>
         </div>
       </div>
 
@@ -44,7 +44,7 @@ const Talent = () => {
           ></textarea>
         </div>
 
-        <div className="ml-[550px] mt-[100px] flex  ">
+        <div className="ml-[650px] mt-[100px] flex  ">
           <IoWarningOutline size={30} className="text-[#fecf6b]" />
 
           {/* efc060 af7525 */}
