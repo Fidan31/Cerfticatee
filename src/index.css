@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+textarea::-webkit-scrollbar{
+    width: auto;
+}
+
+textarea { resize: none; }
+
+@font-face {
+    font-family: "Aliyana";
+    src: url("../public/font/Aliyana.otf");
+}
