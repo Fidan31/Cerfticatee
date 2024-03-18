@@ -27,13 +27,13 @@ const Talent = () => {
   };
 
   return (
-    <div className="container m-auto text-center">
-      <div>
+    <div className="container m-auto  text-center">
+      <div className="flex items-center justify-between">
         <div className="ml-20 mt-[35px]">
           <img src={Logo} alt="" className="w-[330px] h-[230px]" />
         </div>
 
-        <div className="ml-[65rem] mt-[-12rem]">
+        <div className="">
           <img src={Graduation} alt="" className="w-52 h-60" />
         </div>
       </div>
@@ -41,7 +41,7 @@ const Talent = () => {
       <div className="flex flex-col justify-center items-center">
         <textarea
           rows="1"
-          className="font-aliyana w-full  text-9xl text-center h-44 pt-8 border-none"
+          className="font-aliyana w-full  text-8xl text-center h-44 pt-8 border-none"
           value={text1}
           onChange={handleChange1}
         />
@@ -57,26 +57,22 @@ const Talent = () => {
         </div>
       </div>
 
-      <div className="flex items-center">
-        <div className="ml-12 mt-[100px] flex-1">
+      <div className="flex items-center justify-between pr-16 mt-16 ">
+        <div className="">
           <textarea
             rows="2"
-            className="w-[350px] p-5 border-none outline-none focus:ring-0 leading-6 text-center font-semibold text-base"
+            className="w-96 border-none outline-none focus:ring-0  text-center font-semibold text-base"
             value={text3}
             onChange={handleChange3}
           />
         </div>
 
-        <div className="ml-[600px] mt-[100px] flex items-center">
-          <div className="mr-2">
-            <IoWarningOutline size={30} className="text-[#fecf6b]" />
-          </div>
-          <div
-            // className=" mr-24 uppercase font-semibold bg-clip-text   text-base text-transparent bg-gradient-to-r from-[#fecf6b] to-[#af7525]"
-          className="uppercase pr-24 text-sm font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#fecf6b] to-[#af7525]"
-          >
-            Do not bend
-          </div>
+        <div className="  flex items-center  ">
+       
+        
+          <p className="uppercase text-sm font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#fecf6b] to-[#af7525] flex items-center justify-center gap-2" >
+          <IoWarningOutline size={30} className="text-[#fecf6b]" /> Do not bend
+          </p>
         </div>
       </div>
     </div>
