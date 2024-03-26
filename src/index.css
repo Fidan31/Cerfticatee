@@ -15,3 +15,15 @@ textarea { resize: none; }
     font-family: "Aliyana";
     src: url("../public/font/Aliyana.otf");
 }
+
+
+@media print {
+    .hide-on-print {
+      display: none;
+      
+    }
+   
+  }
+   .certificate{
+        page-break-after: always;
+    }
