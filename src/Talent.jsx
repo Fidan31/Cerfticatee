@@ -78,9 +78,7 @@
 //   );
 // };
 
-// export default Talent;
 
-import { useState } from "react";
 import Logo from "../public/logo.svg";
 import Graduation from "../public/graduation.svg";
 import { IoWarningOutline } from "react-icons/io5";
