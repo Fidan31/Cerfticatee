@@ -85,7 +85,7 @@ import { IoWarningOutline } from "react-icons/io5";
 
 const Talent = ({ fullName, transcriptInfo, contactInfo }) => {
   return (
-    <div className="container m-auto text-center">
+    <div className="container m-auto text-center print-container">
       <div className="flex items-center justify-between">
         <div className="ml-10 mt-[30px]">
           <img src={Logo} alt="" className="w-[330px] h-[230px]" style={{ marginTop: "-40px" }}/>
@@ -99,7 +99,7 @@ const Talent = ({ fullName, transcriptInfo, contactInfo }) => {
       <div className="flex flex-col justify-center items-center mt-[-50px]">
         <textarea
           rows="1"
-          className="font-aliyana p-24 w-full text-[120px] text-center h-auto  border-none outline-none focus:ring-0"
+          className="font-aliyana py-24 w-full text-[120px] text-center h-auto  border-none outline-none focus:ring-0"
           value={fullName}
        
         />
