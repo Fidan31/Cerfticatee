@@ -99,7 +99,7 @@ const Talent = ({ fullName, transcriptInfo, contactInfo }) => {
       <div className="flex flex-col justify-center items-center mt-[-50px]">
         <textarea
           rows="1"
-          className="font-aliyana py-24 w-full text-[100px] text-center h-auto  border-none outline-none focus:ring-0"
+          className="font-aliyana py-28 w-full text-[100px] text-center h-auto  border-none outline-none focus:ring-0"
           value={fullName}
        
         />
